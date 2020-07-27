@@ -12,7 +12,7 @@ while True:
 	for x in range(1, my_base, 2):
 		y = randint(2, 12)
 		if x==1:
-			print(f"{Style.BRIGHT+Fore.YELLOW}{'\u2721':^40}")
+			print(f"{Style.BRIGHT}{Fore.YELLOW}{'\u2721':^40}")
       
 		elif y%5==0:
 				print(f"{Fore.RED}{shown_text[:x]:^40}")
